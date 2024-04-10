@@ -2,4 +2,4 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-st.write(1)
+st.title("Mời bạn nhập dữ liệu")
