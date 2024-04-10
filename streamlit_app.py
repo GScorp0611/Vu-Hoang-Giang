@@ -1,4 +1,4 @@
-import pandas as pd
+ import pandas as pd
 import numpy as np
 import streamlit as st
 
@@ -7,4 +7,5 @@ st.header("Mời bạn nhập dữ liệu tại đây")
 
 ten = st.text_input("Nhập tên của bạn:")
 st.text_input("Nhập dữ liệu:")
-st.file_uploader("")
+tep = st.file_uploader("Chọn file")
+if tep 
